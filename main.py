@@ -100,3 +100,12 @@ def main():
 
 main()
 # print(incorrect_words)
+
+
+"""
+things to do:
+# wordbank should use different word length
+# modify game rules
+# create different levels
+
+"""
