@@ -1,5 +1,4 @@
 import random
-from turtledemo.forest import start
 
 # incorrect_words = []
 game_name = "word raider"
