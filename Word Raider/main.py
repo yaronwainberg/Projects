@@ -12,10 +12,6 @@ with open(words_file, "r") as file:
         word_bank.append(line.strip())
 
 
-
-
-
-
 def game():
     guess_word = random.choice(word_bank)
     letters = [letter for letter in guess_word]
@@ -40,7 +36,6 @@ def game():
 
         if guess == "wrong":
             print(incorrect_words)
-
 
         if len(guess) != len(guess_word):
             len_chk = "Please enter a 5 letter word"
@@ -81,7 +76,6 @@ def game():
 
     if tries_left == 0:
         print("End of Game")
-
 
 
 def main():
