@@ -16,3 +16,9 @@ env/
 
 # OS files
 .DS_Store
+
+#video files
+*.mkv
+*.mp4
+*.MKV
+*.MP4
