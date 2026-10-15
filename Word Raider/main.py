@@ -6,7 +6,7 @@ game_name = "word raider"
 word_bank = []
 max_tries = 15
 
-words_file = Path(__file__).parent / "assets" / "words.txt"
+words_file = Path(__file__).parent/"assets"/"words.txt"
 with open(words_file, "r") as file:
     for line in file:
         word_bank.append(line.strip())
